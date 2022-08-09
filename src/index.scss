@@ -15,9 +15,29 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+:root{
+ --hover-color: #F1FCFF;
+ --blue-color: #2196F3;
+}
+
 .card {
   background: #FFFFFF;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
-  padding: 20px;
+}
+
+.button {
+  color: #FFFFFF;
+  background-color: var(--blue-color);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+
+.radio__box:hover{
+  background-color: var(--hover-color);
 }
