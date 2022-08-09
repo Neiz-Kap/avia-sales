@@ -26,7 +26,15 @@ const AirfareItem = ({
   return (
     <article className="card p-5 mb-5">
       <div className="mb-5 flex justify-between">
-        <p className="airfare__amount">{`${amount}`} Р</p>
+        <p className="airfare__amount">
+          {`${amount}`
+            .split("")
+            .reverse()
+            .map((number, i) => (i != 0 && i % 3 == 0 ? `${number} ` : number))
+            .reverse()
+            .join("")}{" "}
+          Р
+        </p>
         <img src={airLogo} alt="" />
       </div>
       <div className="flex">

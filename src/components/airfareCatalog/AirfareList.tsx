@@ -7,6 +7,7 @@ import XiamenAir from "../../assets/XiamenAir.svg";
 const AirfareList = () => {
   const data = [
     {
+      id: 1,
       airLogo: S7,
       amount: 13400,
       route: "Moscow - Lugansk",
@@ -17,6 +18,7 @@ const AirfareList = () => {
       airTransferNames: "",
     },
     {
+      id: 2,
       airLogo: XiamenAir,
       amount: 1212312321412312,
       route:
@@ -34,6 +36,7 @@ const AirfareList = () => {
       {data.map((airline) => {
         return (
           <AirfareItem
+            key={data.id}
             airLogo={airline.airLogo}
             amount={airline.amount}
             route={airline.route}
