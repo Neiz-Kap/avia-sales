@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3eeb97c4.css",
+    "main.js": "/static/js/main.a40145ef.js",
+    "static/media/logo.svg": "/static/media/logo.109473ebc1394888cb51acf91841f956.svg",
+    "static/media/XiamenAir.svg": "/static/media/XiamenAir.47372e58a9f683fb3effac73554f0122.svg",
+    "static/media/S7.svg": "/static/media/S7.62afafd57ae7a9cd519522bd7484f26a.svg",
+    "index.html": "/index.html",
+    "main.3eeb97c4.css.map": "/static/css/main.3eeb97c4.css.map",
+    "main.a40145ef.js.map": "/static/js/main.a40145ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3eeb97c4.css",
+    "static/js/main.a40145ef.js"
+  ]
+}
