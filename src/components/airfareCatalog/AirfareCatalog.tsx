@@ -5,7 +5,7 @@ import { Button } from "../ui";
 
 const AirfareCatalog = () => {
   return (
-    <section className="lg:w-1/2 mb-10">
+    <section className="w-2/3 mb-10">
       <AirfareNav />
       <AirfareList />
       <Button>{"Показать ещё 5 билетов"}</Button>

@@ -3,7 +3,7 @@ import { CardTitle, FieldsetItem } from "../ui";
 
 const TransferCountCard = () => {
   return (
-    <section className="card mb-5">
+    <section className="shadow-box mb-5">
       <div className="p-5">
         <CardTitle>Количество пересадок</CardTitle>
       </div>

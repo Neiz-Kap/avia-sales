@@ -1,10 +1,11 @@
 import React from "react";
-import { Aside, AirfareCatalog, Container } from "../components";
+import { Aside, AirfareCatalog, Container, AirfareSearch } from "../components";
 
 const AirfareShopPage = () => {
   return (
     <Container>
-      <main className="flex flex-col justify-center lg:flex-row">
+      <AirfareSearch/>
+      <main className="flex justify-between flex-row">
         <Aside />
         <AirfareCatalog />
       </main>

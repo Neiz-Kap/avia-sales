@@ -4,10 +4,10 @@ import { AirfareShopPage } from "./pages";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
       <AirfareShopPage />
-    </div>
+    </>
   );
 }
 

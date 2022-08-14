@@ -3,7 +3,7 @@ import { CardTitle, FieldsetItem } from "../ui";
 
 const CompanySelectCard = () => {
   return (
-    <section className="card">
+    <section className="shadow-box">
       <div className="p-5">
         <CardTitle>Компания</CardTitle>
       </div>

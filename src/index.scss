@@ -15,12 +15,20 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-:root{
- --hover-color: #F1FCFF;
- --blue-color: #2196F3;
+:root {
+  --hover-color: #F1FCFF;
+  --blue-color: #2196F3;
 }
 
-.card {
+body{
+  background-color: #F3F7FA;
+}
+
+.container {
+  max-width: calc(4 * 187px + 4rem);
+}
+
+.shadow-box {
   background: #FFFFFF;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -38,6 +46,6 @@
 }
 
 
-.radio__box:hover{
+.radio__box:hover {
   background-color: var(--hover-color);
 }
