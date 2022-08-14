@@ -1,0 +1,61 @@
+.airfare__nav {
+  @apply mb-5;
+
+  .airfare__list {
+    @apply flex;
+
+    .airfare__item {
+      background-color: #FFFFFF;
+      border: 1px solid #DFE5EC;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      @apply w-full w-1/3 text-center transition-colors p-4;
+
+      &:nth-child(1) {
+        @apply rounded-l-lg;
+      }
+
+      &:nth-child(3) {
+        @apply rounded-r-lg;
+      }
+
+      &:hover {
+        background-color: var(--hover-color);
+        cursor: pointer;
+      }
+
+      &.active,
+      &:active {
+        background-color: var(--blue-color);
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+.airfare__amount {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: var(--blue-color);
+}
+
+.airfare-item__name {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #A0B0B9;
+}
+
+airfare-item__number {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #4A4A4A;
+}
